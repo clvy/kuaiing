@@ -1,0 +1,100 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-05 17:43:24
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-13 19:43:05
+*/
+/* ==============================公共样式 ==========================*/
+/* charge.html */
+.charge{overflow:hidden;}
+.charge .user{overflow:hidden;background-color: #fff;}
+.charge .user .user-name{height:.82rem;line-height:.82rem;padding:0 .3rem;border-bottom: 1px solid #e2e2e2;}
+.charge .user .user-name h3{line-height:.82rem;font-size: .32rem;}
+.charge .user .user-name p{font-size: .3rem;color:#4e4e4e;}
+.user-price{overflow:hidden;padding:0 .3rem;}
+.user-price .user-card{overflow:hidden;padding:28px 0 25px 0;}
+.user-price .user-card h3{font-size: .32rem;}
+.user-price .user-card p{font-size: .3rem;color:#4e4e4e;}
+.user-price .user-balance{padding-bottom:.25rem;overflow:hidden;border-bottom: 1px solid #e2e2e2;}
+.user-price .user-balance h3{font-size: .32rem;}
+.user-price .user-balance p{font-size: .34rem;color:#fdb918;}
+
+
+.order{overflow:hidden;margin-top:.2rem;padding:0 .3rem;background-color: #fff;}
+.order .order-goods{overflow:hidden;padding:28px 0 25px 0;}
+.order .order-goods h3{font-size: .32rem;}
+.order .order-goods p{font-size: .3rem;color:#4e4e4e;}
+.order .order-get{padding-bottom:.25rem;overflow:hidden;border-bottom: 1px solid #e2e2e2;}
+.order .order-get h3{font-size: .32rem;}
+.order .order-get p{font-size: .3rem;color:#4e4e4e;}
+
+.recharge{overflow:hidden;background-color: #fff;padding-bottom:.3rem;}
+.recharge h3{margin:.25rem .3rem;font-size: .32rem;font-weight:600;color:#4e4e4e;}
+.recharge ul{overflow:hidden;padding:0 .18rem;}
+.recharge ul li{float:left;width:2.1rem;height:.8rem;line-height: .8rem;margin:.12rem;border:1px solid #6b6b6b;font-size:.3rem;color:#6b6b6b;text-align: center;}
+.recharge ul li.hover{background-color: #fdb918;border: 1px solid #fdb918;color:#fff;}
+.charge .tel{padding:0 .3rem;margin-top:.2rem;font-size: .24rem;color:#6b6b6b;}
+
+
+.button{position:fixed;bottom:.8rem;overflow:hidden;width:100%;}
+.button button{height:.86rem;line-height:.86rem;width:6.9rem;background-color: #fdb918;margin-left:.3rem;}
+.button button a{font-size: .4rem;color:#fff;}
+
+
+
+/* buy.html */
+.buy{overflow:hidden;}
+.buy .user{overflow:hidden;background-color: #fff;}
+.buy .user .user-name{height:.82rem;line-height:.82rem;padding:0 .3rem;border-bottom: 1px solid #e2e2e2;}
+.buy .user .user-name h3{line-height:.82rem;font-size: .32rem;}
+.buy .user .user-name p{font-size: .3rem;color:#4e4e4e;}
+.buy .user-price{overflow:hidden;padding:0 .3rem;}
+.buy .user-price .user-card{overflow:hidden;padding:28px 0 25px 0;}
+.buy .user-price .user-card h3{font-size: .32rem;}
+.buy .user-price .user-card p{font-size: .3rem;color:#4e4e4e;}
+
+.meal{overflow:hidden;margin-top:.2rem;padding:0 .3rem;background-color: #fff;}
+.meal .recomment{margin-top:.35rem;font-size: .32rem;font-weight:600;color:#4e4e4e;}
+.meal .meal-goods{overflow:hidden;padding:28px 0 16px 0;}
+.meal .meal-goods h3{font-size: .32rem;}
+.meal .meal-goods p{font-size: .3rem;color:#4e4e4e;}
+.meal .meal-get{padding-bottom:.25rem;overflow:hidden;bmeal-bottom: 1px solid #e2e2e2;}
+.meal .meal-get h3{font-size: .32rem;}
+.meal .meal-get p{font-size: .3rem;color:#4e4e4e;}
+.buy .meal-balance{padding-bottom:.25rem;overflow:hidden;border-bottom: 1px solid #e2e2e2;}
+.buy .meal-balance h3{font-size: .32rem;}
+.buy .meal-balance p{font-size: .34rem;color:#fdb918;}
+
+.buy-type{overflow:hidden;background-color: #fff;padding-bottom:.3rem;}
+.buy-type h3{margin:.25rem .3rem;font-size: .28rem;font-weight:600;color:#4e4e4e;}
+.buy-type ul{overflow:hidden;padding:0 .18rem;}
+.buy-type ul li{float:left;width:3.26rem;height:.8rem;line-height: .8rem;margin:.12rem;border:1px solid #6b6b6b;font-size:.3rem;color:#6b6b6b;text-align: center;}
+.buy-type ul li.hover{background-color: #fdb918;border: 1px solid #fdb918;color:#fff;}
+.buy .tel{padding:0 .3rem;margin-top:.2rem;font-size: .24rem;color:#6b6b6b;}
+
+
+/* play.html */
+.play{overflow:hidden;}
+.play .user{overflow:hidden;background-color: #fff;}
+.play .user .user-name{height:.82rem;line-height:.82rem;padding:0 .3rem;border-bottom: 1px solid #e2e2e2;}
+.play .user .user-name h3{line-height:.82rem;font-size: .32rem;}
+.play .user .user-name p{font-size: .3rem;color:#4e4e4e;}
+.play .user-price{overflow:hidden;padding:0 .3rem;}
+.play .user-price .user-card{overflow:hidden;padding:28px 0 25px 0;}
+.play .user-price .user-card h3{font-size: .32rem;}
+.play .user-price .user-card p{font-size: .3rem;color:#4e4e4e;}
+
+.play-con{overflow:hidden;margin-top:.2rem;padding:0 .3rem;background-color: #fff;}
+.play-con .recomment{margin-top:.35rem;font-size: .32rem;font-weight:600;color:#4e4e4e;}
+.play-con .play-goods{overflow:hidden;padding:28px 0 16px 0;}
+.play-con .play-goods h3{font-size: .32rem;}
+.play-con .play-goods p{font-size: .3rem;color:#4e4e4e;}
+.play-con .play-get{padding-bottom:.25rem;overflow:hidden;}
+.play-con .play-get h3{font-size: .32rem;}
+.play-con .play-get p{font-size: .3rem;color:#4e4e4e;}
+.play-con .time{height:.86rem;line-height:.86rem;font-size: .3rem;border-top: 1px dashed #e2e2e2;}
+.play .play-balance{padding-bottom:.25rem;overflow:hidden;}
+.play .play-balance h3{font-size: .32rem;}
+.play .play-balance p{font-size: .34rem;color:#fdb918;}
+
+.play .tel{padding:0 .3rem;margin-top:.2rem;font-size: .24rem;color:#6b6b6b;}
